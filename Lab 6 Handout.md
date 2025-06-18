@@ -35,7 +35,7 @@ By the end of this lab, students should be able to:
 
 In two-dimensional coordinates, two points can be connected to form a line, and multiple points connected by lines form a graph. Of course, a graph can also consist of just a single node, or even have no nodes (an empty graph).
 
-![Screen Shot 2025-03-17 at 3.45.57 AM](./images/Screen Shot 2025-03-17 at 3.45.57 AM.png)
+![Screen Shot 2025-03-17 at 3.45.57 AM](./images/Screen%20Shot%202025-03-17%20at%203.45.57%20AM.png)
 
 
 
@@ -43,19 +43,19 @@ Overall, graphs are generally classified into directed graphs and undirected gra
 A directed graph is one where the edges in the graph have direction.
 An undirected graph is one where the edges in the graph have no direction.
 
-![Screen Shot 2025-03-17 at 4.00.48 AM](./images/Screen Shot 2025-03-17 at 4.00.48 AM.png)
+![Screen Shot 2025-03-17 at 4.00.48 AM](./images/Screen%20Shot%202025-03-17%20at%204.00.48%20AM.png)
 
 
 
 A weighted directed graph is one where the edges in the graph have weight values. A weighted undirected graphis one where the edges in the graph have no weight values (or you can think of it that they have the same weight values).
 
-![Screen Shot 2025-03-17 at 4.02.12 AM](./images/Screen Shot 2025-03-17 at 4.02.12 AM.png)
+![Screen Shot 2025-03-17 at 4.02.12 AM](./images/Screen%20Shot%202025-03-17%20at%204.02.12%20AM.png)
 
 
 
 A graph can be sparse or dense (relative definition).
 
-![Screen Shot 2025-03-17 at 3.47.13 AM](./images/Screen Shot 2025-03-17 at 3.47.13 AM.png)
+![Screen Shot 2025-03-17 at 3.47.13 AM](./images/Screen%20Shot%202025-03-17%20at%203.47.13%20AM.png)
 
 
 
@@ -69,11 +69,11 @@ Generally, adjacency lists, adjacency matrices, or edge lists are used for repre
 
 If we use an edge list to store the following unweighted graph:
 
-![Screen Shot 2025-03-17 at 4.09.44 AM](./images/Screen Shot 2025-03-17 at 4.09.44 AM.png)
+![Screen Shot 2025-03-17 at 4.09.44 AM](./images/Screen%20Shot%202025-03-17%20at%204.09.44%20AM.png)
 
 What we will do is that since this graph has 8 edges, we define an 8 × 2 array, meaning we allocate an array of size n × 2 for n edges, like this:
 
-<img src="./images/Screen Shot 2025-03-17 at 4.10.34 AM.png" alt="Screen Shot 2025-03-17 at 4.10.34 AM" style="zoom:50%;" />
+<img src="./images/Screen%20Shot%202025-03-17%20at%204.10.34%20AM.png" alt="Screen Shot 2025-03-17 at 4.10.34 AM" style="zoom:50%;" />
 
 The first row of the array: 6 7, indicates that node 6 points to node 7, and so on.
 
@@ -91,7 +91,7 @@ Answer: For a weighted graph, the edge list would need to be extended to include
 - The second column represents the destination node
 - The third column represents the weight of the edge
 
-![Screen Shot 2025-03-17 at 4.19.09 AM](./images/Screen Shot 2025-03-17 at 4.19.09 AM.png)
+![Screen Shot 2025-03-17 at 4.19.09 AM](./images/Screen%20Shot%202025-03-17%20at%204.19.09%20AM.png)
 
 ### Adjacency Matrix
 
@@ -103,7 +103,7 @@ For example: `grid[2][5] = 6` indicates that node 2 connects to node 5 in a dire
 
 To represent an undirected graph, we would have: `grid[2][5] = 6`, `grid[5][2] = 6`, indicating that node 2 and node 5 are mutually connected with a weight of 6:
 
-<img src="./images/Screen Shot 2025-03-17 at 4.22.40 AM.png" alt="Screen Shot 2025-03-17 at 4.22.40 AM" style="zoom:50%;" />
+<img src="./images/Screen%20Shot%202025-03-17%20at%204.22.40%20AM.png" alt="Screen Shot 2025-03-17 at 4.22.40 AM" style="zoom:50%;" />
 
 In a graph with V (number of vertices) equal to 8, we need to allocate a space as large as 8 * 8. 
 
@@ -121,19 +121,19 @@ Disadvantages:
 
 - With sparse graphs, it will lead to allocating an excessively large two-dimensional array causing waste of space, and when traversing edges, the entire V * V matrix needs to be traversed, causing waste of time.
 
-![Screen Shot 2025-03-17 at 4.27.52 AM](./images/Screen Shot 2025-03-17 at 4.27.52 AM.png)
+![Screen Shot 2025-03-17 at 4.27.52 AM](./images/Screen%20Shot%202025-03-17%20at%204.27.52%20AM.png)
 
-### ![Screen Shot 2025-03-17 at 4.34.26 AM](./images/Screen Shot 2025-03-17 at 4.34.26 AM.png)
+### ![Screen Shot 2025-03-17 at 4.34.26 AM](./images/Screen%20Shot%202025-03-17%20at%204.34.26%20AM.png)
 
 ### Adjacency List
 
-### ![Screen Shot 2025-03-17 at 4.36.50 AM](./images/Screen Shot 2025-03-17 at 4.36.50 AM.png)
+### ![Screen Shot 2025-03-17 at 4.36.50 AM](./images/Screen%20Shot%202025-03-17%20at%204.36.50%20AM.png)
 
 Adjacency List uses an array + linked list approach for representation. The adjacency list represents the graph based on the number of edges, allocating linked lists of corresponding size only for as many edges as there are.
 
 The structure of an adjacency list is shown in the figure:
 
-![Screen Shot 2025-03-17 at 4.32.33 AM](./images/Screen Shot 2025-03-17 at 4.32.33 AM.png)
+![Screen Shot 2025-03-17 at 4.32.33 AM](./images/Screen%20Shot%202025-03-17%20at%204.32.33%20AM.png)
 
 This graph expresses:
 
@@ -167,7 +167,7 @@ DFS and BFS are search algorithms that can be performed on different data struct
 
 #### Breadth-First Search (BFS)
 
-#### ![Screen Shot 2025-03-17 at 5.42.09 AM](./images/Screen Shot 2025-03-17 at 5.42.09 AM.png)
+#### ![Screen Shot 2025-03-17 at 5.42.09 AM](./images/Screen%20Shot%202025-03-17%20at%205.42.09%20AM.png)
 
 BFS explores the graph level by level, ensuring all neighbours of a node are visited before moving to the next level. BFS can be implemented iteratively using a **queue**.
 
@@ -175,7 +175,7 @@ BFS explores the graph level by level, ensuring all neighbours of a node are vis
 
 Imagine you have a map represented as a grid (like a chess board or maze). You're standing at one position and want to explore the entire area by visiting all the accessible squares. The challenge is to visit each location exactly once and cover the entire accessible area efficiently.
 
-![Screen Shot 2025-03-17 at 4.51.22 AM](./images/Screen Shot 2025-03-17 at 4.51.22 AM.png)
+![Screen Shot 2025-03-17 at 4.51.22 AM](./images/Screen%20Shot%202025-03-17%20at%204.51.22%20AM.png)
 
 ##### The Solution: Breadth-First Search (BFS)
 
@@ -270,7 +270,7 @@ Question: What is being used to store the graph?
 
 These differences explain why the graph BFS implementation requires additional mechanisms like the `visited` array, while tree traversal can be more straightforward.
 
-![Screen Shot 2025-03-17 at 5.41.02 AM](./images/Screen Shot 2025-03-17 at 5.41.02 AM.png)
+![Screen Shot 2025-03-17 at 5.41.02 AM](./images/Screen%20Shot%202025-03-17%20at%205.41.02%20AM.png)
 
 # Optional Questions From Previous Semester
 

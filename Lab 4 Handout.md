@@ -35,25 +35,25 @@ By the end of this lab, students should be able to:
 
 ## Quick Recap of Trees
 
-![Screen Shot 2025-02-15 at 10.59.18 PM](./images/Screen Shot 2025-02-15 at 10.59.18 PM.png)
+![Screen Shot 2025-02-15 at 10.59.18 PM](./images/Screen%20Shot%202025-02-15%20at%2010.59.18%20PM.png)
 
-![Screen Shot 2025-02-15 at 10.59.28 PM](./images/Screen Shot 2025-02-15 at 10.59.28 PM.png)
+![Screen Shot 2025-02-15 at 10.59.28 PM](./images/Screen%20Shot%202025-02-15%20at%2010.59.28%20PM.png)
 
-![Screen Shot 2025-02-15 at 10.59.39 PM](./images/Screen Shot 2025-02-15 at 10.59.39 PM.png)
+![Screen Shot 2025-02-15 at 10.59.39 PM](./images/Screen%20Shot%202025-02-15%20at%2010.59.39%20PM.png)
 
 ## Quick Recap of Binary Trees
 
-![Screen Shot 2025-02-15 at 10.58.52 PM](./images/Screen Shot 2025-02-15 at 10.58.52 PM.png)
+![Screen Shot 2025-02-15 at 10.58.52 PM](./images/Screen%20Shot%202025-02-15%20at%2010.58.52%20PM.png)
 
-![Screen Shot 2025-02-15 at 10.59.51 PM](./images/Screen Shot 2025-02-15 at 10.59.51 PM.png)
+![Screen Shot 2025-02-15 at 10.59.51 PM](./images/Screen%20Shot%202025-02-15%20at%2010.59.51%20PM.png)
 
 
 
 ## Quick Recap of Binary Search Tree
 
-![Screen Shot 2025-02-15 at 11.00.24 PM](./images/Screen Shot 2025-02-15 at 11.00.24 PM.png)
+![Screen Shot 2025-02-15 at 11.00.24 PM](./images/Screen%20Shot%202025-02-15%20at%2011.00.24%20PM.png)
 
-![Screen Shot 2025-02-15 at 11.00.38 PM](./images/Screen Shot 2025-02-15 at 11.00.38 PM.png)
+![Screen Shot 2025-02-15 at 11.00.38 PM](./images/Screen%20Shot%202025-02-15%20at%2011.00.38%20PM.png)
 
 
 
@@ -69,7 +69,7 @@ In linked storage, we use **pointers**, while in sequential storage, we use **ar
 
 **Linked Storage:**
 
-![Screen Shot 2025-02-15 at 11.15.51 PM](./images/Screen Shot 2025-02-15 at 11.15.51 PM.png)
+![Screen Shot 2025-02-15 at 11.15.51 PM](./images/Screen%20Shot%202025-02-15%20at%2011.15.51%20PM.png)
 
 
 
@@ -79,11 +79,11 @@ Linked storage is a very familiar method to everyone, so let's take a look at ho
 
 In fact, it's using arrays to store binary trees, the sequential storage method is shown in the figure:
 
-![Screen Shot 2025-02-15 at 11.03.20 PM](./images/Screen Shot 2025-02-15 at 11.03.20 PM.png)
+![Screen Shot 2025-02-15 at 11.03.20 PM](./images/Screen%20Shot%202025-02-15%20at%2011.03.20%20PM.png)
 
 
 
-![Screen Shot 2025-02-15 at 11.03.37 PM](./images/Screen Shot 2025-02-15 at 11.03.37 PM.png)
+![Screen Shot 2025-02-15 at 11.03.37 PM](./images/Screen%20Shot%202025-02-15%20at%2011.03.37%20PM.png)
 
 
 

@@ -68,7 +68,7 @@ Consider a graph with 1,000 vertices:
 
 ## Implementation in Java
 
-![Screen Shot 2025-03-24 at 9.23.01 AM](images/Screen Shot 2025-03-24 at 9.23.01 AM.png)
+![Screen Shot 2025-03-24 at 9.23.01 AM](images/Screen%20Shot%202025-03-24%20at%209.23.01%20AM.png)
 
 ```java
 import java.util.LinkedList;
@@ -160,7 +160,7 @@ Last week, we looked at BFS (Breadth-First Search) which first traverses all nod
 
 However, DFS (Depth-First Search) explores in a single direction without turning back until it reaches a dead end, only then changing direction (this direction-changing process involves backtracking). It is like following a single path as far as possible before trying alternative routes.
 
-![Screen Shot 2025-03-24 at 9.33.50 AM](images/Screen Shot 2025-03-24 at 9.33.50 AM.png)
+![Screen Shot 2025-03-24 at 9.33.50 AM](images/Screen%20Shot%202025-03-24%20at%209.33.50%20AM.png)
 
 
 
@@ -262,7 +262,7 @@ A common point of confusion is why we need to undo or backtrack in the DFS code 
 
 Consider this scenario: We can go from 1 to 2 to 3, we undo 2 -> 3 and switch to 2 -> 7? This is exactly the (implicit) backtracking process - undoing a path and exploring the next direction.
 
-![Screen Shot 2025-03-24 at 9.46.19 AM](images/Screen Shot 2025-03-24 at 9.46.19 AM.png)
+![Screen Shot 2025-03-24 at 9.46.19 AM](images/Screen%20Shot%202025-03-24%20at%209.46.19%20AM.png)
 
 
 
